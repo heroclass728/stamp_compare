@@ -13,6 +13,11 @@ from settings import EXP_CONST, SERVER_HOST, SERVER_PORT, CUR_DIR, LOCAL
 app = Flask(__name__)
 
 
+@app.route('/')
+def default():
+    return "Stamp Comparison"
+
+
 @app.route('/compare', methods=['GET'])
 def run():
 
