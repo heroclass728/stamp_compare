@@ -4,7 +4,8 @@
 
 This project is to compare two stamp images to estimate the similarity score between them. When the client sends the 
 request url with the image https urls, the project returns the response with similarity score. The web server is run by 
-Flask.
+Flask. This project is deployed into Azure Platform. If you type the server URL, the result of image comparison will be 
+returned.
 
 ## Structure
 
