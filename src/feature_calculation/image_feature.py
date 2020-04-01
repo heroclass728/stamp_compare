@@ -71,6 +71,5 @@ class ImageFeature:
 
 if __name__ == '__main__':
 
-    feature = ImageFeature().get_feature_from_image(img_path="/media/mensa/Data/Task/ImageAbnormality/data/HealthyAll/"
-                                                             "01 01-007 (003) 11 Jun 13_27855.png")
+    feature = ImageFeature().get_feature_from_image(img_path="")
     print(len(feature))

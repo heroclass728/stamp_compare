@@ -20,4 +20,4 @@ def get_image_from_url(https_url, file_id):
 
 if __name__ == '__main__':
 
-    get_image_from_url(https_url="https://pyimagesearch.com/wp-content/uploads/2015/01/opencv_logo.png", file_id=0)
+    get_image_from_url(https_url="", file_id=0)

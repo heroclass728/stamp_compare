@@ -32,8 +32,6 @@ def run():
         processed_frame2_path = preprocess_image(frame_path=frame2_path, file_id="2")
         _, similarity = compare_two_images(frame1_path=processed_frame1_path, frame2_path=processed_frame2_path)
         ss = 1 - math.exp(EXP_CONST * similarity)
-        print(similarity)
-        print(ss)
         data = {'score': ss}
         response = json.dumps(data)
         for path in glob.glob(os.path.join(CUR_DIR, 'utils', '*.jpg')):

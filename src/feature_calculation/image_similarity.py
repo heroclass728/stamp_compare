@@ -17,6 +17,5 @@ def calculate_distance_between_features(frame1_path, frame2_path):
 
 if __name__ == '__main__':
 
-    dist = calculate_distance_between_features(frame1_path="/media/mensa/Data/Task/ImageComparison/data/1003.jpg",
-                                               frame2_path="/media/mensa/Data/Task/ImageComparison/data/4.jpg")
+    dist = calculate_distance_between_features(frame1_path="", frame2_path="")
     print(dist)
